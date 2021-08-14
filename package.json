@@ -1,0 +1,22 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leeseunghwan7305/javascript-Study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leeseunghwan7305/javascript-Study/issues"
+  },
+  "homepage": "https://github.com/Leeseunghwan7305/javascript-Study#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

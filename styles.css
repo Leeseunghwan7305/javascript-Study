@@ -1,0 +1,20 @@
+body {
+  height: 200vh;
+}
+.alert-box {
+  background-color: rgb(194, 194, 232);
+  color: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.left-menu {
+  width: 150px;
+  height: 100%;
+  background: black;
+  color: white;
+  position: fixed;
+  margin-left: -250px;
+}
+.yellow-bg {
+  background-color: yellow;
+}

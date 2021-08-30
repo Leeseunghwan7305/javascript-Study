@@ -1,20 +1,38 @@
 body {
-  height: 200vh;
+  margin: 0px;
+  height: 110vh;
 }
-.alert-box {
-  background-color: rgb(194, 194, 232);
-  color: blue;
-  padding: 20px;
-  border-radius: 5px;
+.slide-container {
+  width: 300vw;
+  display: flex;
+  transition: transform 1s;
+  position: relative;
 }
-.left-menu {
-  width: 150px;
-  height: 100%;
-  background: black;
-  color: white;
+.slide-box {
+  width: 100vw;
+}
+.slide-box img {
+  width: 100%;
+}
+
+.slide-1 {
+}
+.slide-2 {
+}
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background-color: transparent;
   position: fixed;
-  margin-left: -250px;
+  z-index: 5;
 }
-.yellow-bg {
-  background-color: yellow;
+.list-group {
+  padding-top: 50px;
+}
+.nav-black {
+  background-color: black;
+  color: white;
 }

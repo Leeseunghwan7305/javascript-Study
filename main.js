@@ -1,16 +1,16 @@
-function game(number) {
-  let tine = 0;
-  if ((number % 10) % 3 == 0) {
-    tine = number % 10;
-    if (tine % 3 == 0 && number > 10) console.log("박수x2");
-    else console.log("박수");
-  } else {
-    console.log("통과");
+function pre() {}
+
+$(".slide-2").click(function () {
+  $(".slide-container").css("transform", "translateX(-100vw)");
+});
+$(".slide-3").click(function () {
+  $(".slide-container").css("transform", "translateX(-200vw)");
+});
+$(".slide-1").click(function () {
+  $(".slide-container").css("transform", "translateX(0)");
+});
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 50) {
+    $(".nav-menu").addClass("nav-black");
   }
-}
-game(6);
-game(11);
-game(18);
-game(33);
-game(9);
-game(66);
+});

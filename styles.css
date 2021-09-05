@@ -1,0 +1,33 @@
+.grey {
+  background: black;
+  display: flex;
+  height: 3000px;
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+.sticky {
+  padding: 20px;
+  color: whitesmoke;
+}
+.imgd {
+  height: 1000px;
+  width: 100%;
+  position: sticky;
+  top: 100px;
+}
+.card-background {
+  background-color: black;
+  height: 3000px;
+  margin-top: 800px;
+  margin-bottom: 1600px;
+}
+.card-box img {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  height: 400px;
+}
+.card-box {
+  position: sticky;
+  top: 400px;
+}
